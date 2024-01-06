@@ -1,16 +1,9 @@
-
 It looks like you've provided a series of commands commonly used when setting up a new Git repository and pushing it to a remote repository on GitHub. Let me break down what each command does:
-
 echo "# welcomemarijuana" >> README.md: This command adds a heading (# welcomemarijuana) to a file named README.md. This file is often used to provide information and documentation about your project.
-
 git init: Initializes a new Git repository in your local project directory.
-
 git add README.md: Adds the README.md file to the staging area, preparing it for the next commit.
-
 git commit -m "first commit": Commits the changes you've staged, along with a commit message describing the changes. In this case, it's the "first commit."
-
 git branch -M main: Renames the default branch from "master" to "main." This is a common practice in response to the move away from using terms like "master" in version control systems.
-
 git remote add origin https://github.com/welcomemarijuana/welcomemarijuana.git: Sets up a remote named "origin" pointing to the specified GitHub repository URL.
-
-git push -u origin main: Pushes your committed changes to the "main" branch of the remote repository on GitHub. The -u flag is used to set up tracking, so future pushes and pulls can be done without specifying the remote and branch.
+git push -u origin main: Pushes your committed changes to the "main" branch of the remote repository on GitHub. The -u flag is used to set up tracking, so future pushes and pulls can be done without specifying the remote and branch.Read More
+https://welcomemarijuana.com/
